@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Mostra a situação atual do imóvel</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Disponível</fullName>
+                <default>false</default>
+                <label>Disponível</label>
+            </value>
+            <value>
+                <fullName>Pendente</fullName>
+                <default>false</default>
+                <label>Pendente</label>
+            </value>
+            <value>
+                <fullName>Impedimento</fullName>
+                <default>false</default>
+                <label>Impedimento</label>
+            </value>
+            <value>
+                <fullName>Em negociação</fullName>
+                <default>false</default>
+                <label>Em negociação</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
