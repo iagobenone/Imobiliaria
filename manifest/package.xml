@@ -196,6 +196,7 @@
 	<types>
 		<members>Agendamento_de_compromisso</members>
 		<members>Agendamento_de_visitas</members>
+		<members>Agendar_compromisso</members>
 		<name>Flow</name>
 	</types>
 	<types>

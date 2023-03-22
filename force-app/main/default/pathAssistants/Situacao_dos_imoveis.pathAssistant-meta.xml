@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Imovel__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Situação dos imóveis</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;strong&gt;Este imóvel está disponível para visitação&lt;/strong&gt;&lt;/p&gt;</info>
+        <picklistValueName>Disponível</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;strong&gt;Este imóvel está sendo negociado&lt;/strong&gt;&lt;/p&gt;</info>
+        <picklistValueName>Em negociação</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;strong&gt;Este imóvel possui alguma pendência&lt;/strong&gt;&lt;/p&gt;</info>
+        <picklistValueName>Impedimento</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;strong&gt;Este imóvel está com alguma pendência&lt;/strong&gt;&lt;/p&gt;</info>
+        <picklistValueName>Pendente</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
